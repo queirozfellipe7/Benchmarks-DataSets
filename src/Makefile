@@ -9,5 +9,6 @@ install_gawk:
 # Definir permissões
 set_permissions:
     chmod +x script.sh
-
+# Executar Script
+ sudo ./script
 
