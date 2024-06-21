@@ -1,4 +1,5 @@
-#﻿ Descrição do Dataset
+
+# Descrição do Dataset
 Este dataset contém informações detalhadas sobre o consumo de energia e o desempenho de benchmarks, coletadas utilizando a ferramenta Jouleit/PowerAPI. Os dados foram gerados a partir da execução repetida de benchmarks da suíte Polybench/ACC em um sistema específico, com o objetivo de analisar como diferentes níveis de complexidade de entrada afetam o consumo de energia e o desempenho.
 
 # Estrutura do Dataset
@@ -37,14 +38,14 @@ Durante a execução, a ferramenta Jouleit monitorou e registrou o consumo energ
 
 # Ferramentas Utilizadas
 ## Hardware:
-   * Processador: Intel Core i5-7200U (2 núcleos físicos, 4 núcleos lógicos, frequência base de 2.50 GHz até 3.10 GHz em modo turbo).
+   * Processador: Intel Core i5-7200U 
    * Memória Cache: 128 KB de cache L1, 512 KB de cache L2, 3 MB de cache L3.
    * Memória do Sistema: 12 GB de memória DDR4 a 2133 MHz.
-   * Gráficos Integrados: Intel HD Graphics 620.
 ## Software:
-   * Sistema Operacional: Linux Ubuntu 22.04.
-   * Compilador: GCC 11.4.0.
+   * Sistema Operacional: Linux Ubuntu 24.04. LTS
+   * Compilador: GCC 13.2.0.
    * Ferramenta de Monitoramento: Jouleit (parte da PowerAPI).
+   * Benchmarks do suíte Polybench/ACC
 
 # Padrões de Medição
 * Consumo de Energia: Medido em microjoules (μJ).
