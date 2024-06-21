@@ -36,12 +36,12 @@ Os dados foram coletados utilizando um script em Bash que automatizou a execuç�
 Durante a execução, a ferramenta Jouleit monitorou e registrou o consumo energético dos componentes de hardware específicos, como CPU, DRAM e componentes fora do núcleo da CPU (UNCORE), além de registrar a duração das execuções.
 
 # Ferramentas Utilizadas
-* Hardware:
+## Hardware:
    * Processador: Intel Core i5-7200U (2 núcleos físicos, 4 núcleos lógicos, frequência base de 2.50 GHz até 3.10 GHz em modo turbo).
    * Memória Cache: 128 KB de cache L1, 512 KB de cache L2, 3 MB de cache L3.
    * Memória do Sistema: 12 GB de memória DDR4 a 2133 MHz.
    * Gráficos Integrados: Intel HD Graphics 620.
-* Software:
+## Software:
    * Sistema Operacional: Linux Ubuntu 22.04.
    * Compilador: GCC 11.4.0.
    * Ferramenta de Monitoramento: Jouleit (parte da PowerAPI).
